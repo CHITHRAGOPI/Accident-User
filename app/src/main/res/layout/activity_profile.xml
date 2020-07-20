@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:paddingLeft="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/name_profile_textview"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="20sp"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorLightGRey"
+        android:layout_height="1dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Address"
+        android:textSize="18sp"
+        android:paddingLeft="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/address_profile_textview"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="20sp"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorLightGRey"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Mobile "
+        android:textSize="18sp"
+        android:paddingLeft="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="20sp"
+        android:id="@+id/mobile_profile_textview"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorLightGRey"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Username"
+        android:textSize="18sp"
+        android:paddingLeft="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="16dp"
+        android:id="@+id/username_profile_textview"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+
+        android:background="@color/colorLightGRey"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textSize="18sp"
+        android:paddingLeft="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="16dp"
+        android:id="@+id/password_profile_textview"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorLightGRey"
+        android:layout_height="1dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Device Id"
+        android:textSize="18sp"
+        android:paddingLeft="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="16dp"
+        android:id="@+id/device_profile_textview"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+
+        android:background="@color/colorLightGRey"
+        android:layout_height="1dp"/>
+
+
+   </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
